@@ -1,0 +1,318 @@
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the width based on content and desired layout */
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+@media (max-width: 767px) {
+    .card-container {
+        display: flex;
+        overflow-x: auto;
+        -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+        scrollbar-width: none; /* Hides scrollbar in Firefox */
+        -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+        scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: mandatory;
+        scroll-behavior: smooth;
+    }
+
+    .card {
+        scroll-snap-align: start;
+        -ms-scroll-snap-align: start;
+    }
+}
+.navbar {
+    font-family: 'Open Sans', sans-serif; 
+}
+.navbar-brand {
+    font-weight: bold; 
+}
+.navbar-nav .nav-link {
+    font-weight: 500; 
+}
+
+
+/* Header Section */
+header {
+    position: relative;
+    overflow: hidden;
+}
+/*
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/code2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5); 
+}
+*/
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.dot-animation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 5px;
+    animation: dotAnimation 1.5s infinite;
+}
+
+@keyframes dotAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Additional CSS for Services Section */
+
+.service-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .card-title {
+    font-family: 'Arial', sans-serif; 
+    color: #333;
+}
+
+.service-card .card-text {
+    font-family: 'Arial', sans-serif; 
+    color: #666; 
+}
+
+
+/*Pricing*/
+.pricing-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card .card-title {
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+}
+
+.pricing-card .card-text {
+    font-family: 'Arial', sans-serif; 
+    color: #666; 
+}
+
+
+    /* Footer Section */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 30px 0;
+    }
+
+    footer h5 {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        font-size: 24px;
+        margin: 0 10px;
+        color: #fff;
+        transition: all 0.3s;
+    }
+
+    .social-icon:hover {
+        color: #007bff; 
+        transform: scale(1.2); 
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Header Section Styles */
+    .header-section {
+        background: linear-gradient(#292b2c, #414345);
+        color: #fff;
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    /* Services Section Styles */
+    .services-section {
+        background: #f8f9fa;
+        padding: 50px 0;
+    }
+    
+    /* Skills Section Styles */
+    .skills-section {
+        background: #eceff1;
+        padding: 50px 0;
+    }
+    
+    /* Pricing Section Styles */
+    .pricing-section {
+        background: #fff;
+        padding: 50px 0;
+    }
+    
+    /* Contact Section Styles */
+    .contact-section {
+        background: #f8f9fa;
+        padding: 50px 0;
+    }
+    
+    /* Footer Section Styles */
+    .footer-section {
+        background: #292b2c;
+        color: #fff;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    /* Styling for h2 elements */
+h2 {
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 2em; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+   
+}
+.skills-section .progress {
+    margin-bottom: 15px; 
+}
+
+.pricing-section .progress {
+    margin-bottom: 15px; 
+}
+h1 {
+    letter-spacing: 2px;
+    font-family:  sans-serif, 'Arial',;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  h5 {
+    font-family: 'Arial', sans-serif;
+    
+    font-weight: bold;
+   
+    margin-bottom: 10px;
+    text-transform: uppercase; 
+  }
+  
+  
+
+    
+
+  /*-animation*/
+  
+        @keyframes changeBg {
+            0%, 100% {
+                background-image: url('images/code1.png');
+            }
+            33% {
+                background-image: url('images/code2.jpg');
+            }
+            66% {
+                background-image: url('images/code3.png');
+            }
+        }
+
+        .header-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('images/code1.png'); /* Default image */
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.5);
+            animation: changeBg 9s infinite; 
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin: 0 5px;
+            display: inline-block;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+  
+    
+
+
