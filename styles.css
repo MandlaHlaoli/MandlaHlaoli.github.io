@@ -158,12 +158,8 @@ header {
 }
 
 
-/* Style the footer */
-footer {
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: center;
-}
+
+
 
 /* Style the map container */
 
@@ -199,6 +195,3 @@ footer {
 .fa-map-marker-alt {
     margin-right: 5px; 
 }
-
-
-
