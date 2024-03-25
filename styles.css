@@ -1,0 +1,187 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    background-image: linear-gradient(to bottom right, #4ddfdf, #2195f38a); 
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-text {
+    color: white;
+}
+
+header h1 {
+    margin: 10px 0;
+    color: #fdfcfc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+h2{
+    color: #666666;
+}
+h3{
+    color: #999999;
+}
+p{
+    color: #444444 ;
+}
+li{
+    color: #555555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content sections */
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture */
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect on  */
+nav ul li:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+#skills {
+    margin-top: 20px;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#skills p {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#skills ul li i {
+    margin-right: 10px;
+}
+
+/* header */
+header {
+    background-image: url('images/background-image.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px;
+    color: white; 
+    text-align: center;
+}
+
+.project-image {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-top: 10px;
+}
+.project-link {
+    color: #007bff; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-bottom: 10px; 
+}
+
+
+/* Style the contact section */
+.contact-ul{
+    list-style-type: none; 
+    padding: 0;
+}
+.contact-a{
+    text-decoration: none; 
+    color: #333; 
+    font-size: 16px;
+}
+.contact-icon{
+    margin-right: 10px;
+}
+.contact-li{
+    margin-bottom: 10px;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the map container */
+.map-container {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* Style the addresses */
+.address {
+    font-size: px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
