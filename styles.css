@@ -157,10 +157,6 @@ header {
     margin-bottom: 10px;
 }
 
-
-
-
-
 /* Style the map container */
 
 .map-container {
@@ -194,4 +190,19 @@ footer {
 }
 .fa-map-marker-alt {
     margin-right: 5px; 
+}
+.return-button{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f1461b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contact .contact-a:hover {
+    color: #0056b3; 
+    cursor: pointer;
 }
