@@ -32,7 +32,7 @@ header {
 header h1 {
   margin: 10px 0;
   color: #fdfcfc;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif; 
   font-weight: 700;
 }
 h2 {
@@ -43,6 +43,14 @@ h3 {
 }
 p {
   color: #444444;
+}
+.paragraph-container p {
+  line-height: 1.6; 
+  margin-bottom: 15px; 
+  font-size: 16px;
+  color: #333; 
+  font-family: 'Roboto', sans-serif;
+ 
 }
 li {
   color: #555555;
@@ -132,7 +140,8 @@ section:hover {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-top: 10px;
+  margin: 0 auto;
+  
 }
 .project-link {
   color: #007bff;
@@ -207,3 +216,23 @@ footer {
   color: #0056b3;
   cursor: pointer;
 }
+
+.paragraph-container{
+  max-width: 1000px;
+}
+.section-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.column{
+  flex: 1;
+  min-width: 300px; 
+  max-width: calc(50% - 20px);
+}
+@media screen and (max-width: 768px) {
+  .column {
+    max-width: 100%; 
+  }
+}
+
